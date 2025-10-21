@@ -1,0 +1,25 @@
+# ns-3 build and cache
+build/
+cmake-cache/
+CMakeFiles/
+compile_commands.json
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Simulation outputs
+*.pcap
+*.pcapng
+*.xml
+*.tr
+*.log
+*.png
+*.traces
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
